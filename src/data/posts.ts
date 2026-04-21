@@ -5,6 +5,7 @@ export interface Post {
   content: string;
   date: string;
   category: string;
+  author: string;
 }
 
 export const posts: Post[] = [
@@ -23,6 +24,7 @@ Một số ưu điểm nổi bật của Next.JS:
 - Hỗ trợ TypeScript sẵn có`,
     date: "2025-01-15",
     category: "Công nghệ",
+    author: "Đào Hoàng Quỳnh Như",
   },
   {
     slug: "hoc-tailwind-css",
@@ -40,6 +42,7 @@ Bạn viết trực tiếp trong HTML:
 - File CSS cuối cùng rất nhỏ (chỉ chứa class đã dùng)`,
     date: "2025-01-20",
     category: "Công nghệ",
+    author: "Đào Hoàng Quỳnh Như",
   },
   {
     slug: "kinh-nghiem-hoc-lap-trinh",
@@ -51,6 +54,25 @@ Bạn viết trực tiếp trong HTML:
 3. Tham gia cộng đồng: Tham gia các cộng đồng lập trình để học hỏi và chia sẻ kinh nghiệm.`,
     date: "2025-02-01",
     category: "Học tập",
+    author: "Đào Hoàng Quỳnh Như",
+  },
+  {
+    slug: "hoc-typescript-co-ban",
+    title: "Làm chủ TypeScript trong 10 phút",
+    excerpt: "Tại sao nên dùng TypeScript thay vì JavaScript thuần?",
+    content: `TypeScript giúp code an toàn hơn nhờ tính năng ép kiểu...`,
+    date: "2025-02-10",
+    category: "Công nghệ",
+    author: "Đào Hoàng Quỳnh Như",
+  },
+  {
+    slug: "chia-se-ve-hoc-tap",
+    title: "Cách quản lý thời gian cho sinh viên IT",
+    excerpt: "Làm sao để vừa học tốt vừa có thời gian làm dự án?",
+    content: `Hãy sử dụng phương pháp Pomodoro và lập danh sách công việc...`,
+    date: "2025-02-15",
+    category: "Đời sống",
+    author: "Đào Hoàng Quỳnh Như",
   },
 ];
 
