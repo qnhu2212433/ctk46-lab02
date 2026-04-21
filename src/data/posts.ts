@@ -10,7 +10,7 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    slug: "gioi-thieu-nextjs",
+    slug: "gioi-thieu-next-js",
     title: "Giới thiệu Next.JS — Framework React phổ biến nhất",
     excerpt:
       "Tìm hiểu tại sao Next.JS là lựa chọn hàng đầu cho phát triển web hiện đại.",
@@ -27,7 +27,7 @@ Một số ưu điểm nổi bật của Next.JS:
     author: "Đào Hoàng Quỳnh Như",
   },
   {
-    slug: "hoc-tailwind-css",
+    slug: "hoc-tailwind",
     title: "Tailwind CSS — Cách tiếp cận mới cho CSS",
     excerpt:
       "Khám phá phương pháp utility-first CSS và tại sao nó thay đổi cách viết CSS.",
