@@ -5,6 +5,17 @@ export default function Footer() {
         <p>
           © 2025 — Đào Hoàng Quỳnh Như| CTK46 — Các công nghệ mới trong PTPM
         </p>
+
+        <a
+          href="https://github.com/qnhu2212433"
+          target="_blank"
+          className="text-blue-500 underline"
+        >
+          GitHub
+        </a>
+        <a href="mailto:2212433@dlu.edu.vn" className="text-blue-500 underline">
+          Email cá nhân
+        </a>
       </div>
     </footer>
   );
